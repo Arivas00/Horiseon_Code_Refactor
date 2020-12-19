@@ -1,13 +1,16 @@
+/* Asterisks means it affects everything in the html file. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Changes background color of evrtyhing in the body tag. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Affects everything within the header tag. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Changes the CSS of h1 tag within the header tag */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes color of tag with class seo. */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Sets CSS of the navigation bar at the top. */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,24 +39,29 @@ body {
     
 }
 
+/* Affects unordered list in navigation tag. */
 .header nav ul {
     list-style-type: none;
 }
 
+/* Affects list items in nav tag. */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Changes color of anchor tags. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets font size of all paragraphs */
 p {
     font-size: 16px;
 }
 
+/* CSS applied to background right after header. */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,13 +71,14 @@ p {
     background-position: center;
 }
 
+/* Affects section tag with content class. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Consolidated and moved to follow semantic order */
+/* Consolidated and moved to follow semantic order. CSS applied to the articles in the content section. */
 #search-engine-optimization,
 #online-reputation-management,
 #social-media-marketing {
@@ -77,14 +89,14 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* Consolidated and moved to follow semantic order */
+/* Consolidated and moved to follow semantic order. CSS applied to the images of the articles in the content section. */
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
-/* Consolidated and moved to follow semantic order */
+/* Consolidated and moved to follow semantic order. CSS affects h2 tags within the articles of the content section. */
 .search-engine-optimization h2,
 .online-reputation-management h2
 .social-media-marketing h2 {
@@ -92,6 +104,7 @@ p {
     font-size: 36px;
 }
 
+/* Floats images within content section. */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -102,6 +115,7 @@ p {
     margin-left: 25px;
 }
 
+/* CSS affects everything in the aside tag. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -113,7 +127,7 @@ p {
     background-color: #2589bd;
 }
 
-/* Consolidated */
+/* Consolidated, CSS affects articles in aside tag. */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -121,7 +135,7 @@ p {
     color: #ffffff;
 }
 
-/* Consolidated */
+/* Consolidated, CSS affects h3 tags in the articles of the aside tag. */
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -129,7 +143,7 @@ p {
     text-align: center;
 }
 
-/* Consolidated */
+/* Consolidated, CSS affects images in the articles of the aside tag. */
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
@@ -138,6 +152,7 @@ p {
     max-width: 150px;
 }
 
+/* Changes the CSS of the footer tag. */
 .footer {
     padding: 30px;
     clear: both;
@@ -145,6 +160,7 @@ p {
     text-align: center;
 }
 
+/* CHanges the CSS of the h2 tag within the footer. */
 .footer h2 {
     font-size: 20px;
 }
